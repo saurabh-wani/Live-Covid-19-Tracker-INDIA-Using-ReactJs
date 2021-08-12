@@ -1,0 +1,163 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(80, 77, 77);
+}
+
+body {
+  background: rgb(80, 77, 77);
+  height: 100%;
+  color: #eee;
+  z-index: 1;
+}
+
+html,
+body {
+  height: 100%;
+  width: auto;
+  text-align: center;
+}
+
+html {
+  background: rgb(80, 77, 77);
+}
+
+ul {
+  list-style-type: none;
+}
+/* ul.list li {
+  width: auto;
+  float: left;
+} */
+/* ul li {
+  display: inline;
+} */
+
+/*.card1 {
+  width: auto;
+  height: auto;
+  background: red;
+  color: #fff;
+  top: 17%;
+  left: 6%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.card2 {
+  width: auto;
+  height: auto;
+  background: red;
+  color: #fff;
+  top: 17%;
+  left: 24%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.card3 {
+  width: auto;
+  height: auto;
+  background: red;
+  color: #fff;
+  top: 7%;
+  left: 6%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.card4 {
+  width: auto;
+  height: auto;
+  background: red;
+  color: #fff;
+  top: 7%;
+  left: 6%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.card5 {
+  width: auto;
+  height: auto;
+  background: red;
+  color: #fff;
+  top: 7%;
+  left: 6%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.card6 {
+  width: auto;
+  height: auto;
+  background: red;
+  color: #fff;
+  top: 7%;
+  left: 6%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 20px;
+} */
+
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
+
+.table-responsive {
+  max-height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+tr:hover {
+  background-color: #ffa;
+}
+
+td,
+th {
+  position: relative;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: none;
+}
+
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #f2f2f2;
+  left: 0;
+  top: -5000px;
+  height: 5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.table tr td:hover:nth-child(4) {
+  background-color: brown;
+  color: aliceblue;
+  border: 0.5px solid rgb(12, 12, 12);
+}
+
+.table tr td:hover {
+  background-color: rgb(117, 223, 122);
+  color: aliceblue;
+  border: 0.5px solid rgb(12, 12, 12);
+}
+
+.thead-dark {
+  font-weight: bold;
+  text-transform: uppercase;
+}
